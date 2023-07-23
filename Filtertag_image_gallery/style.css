@@ -36,13 +36,13 @@ body .container {
   display: none;
 }
 
-@media (max-width: 800px) {   /*600px*/
+@media (max-width: 800px) {  
   #filterable-cards {
     justify-content: center;
   }
 
   #filterable-cards .card {
     /* width: calc(100% / 2 - 10px); */
-    width: calc(40rem / 2 - 10px);
+    width: calc(40rem / 2 - 10px);      /*looks cleaner than code line above it*/
   }
 }
